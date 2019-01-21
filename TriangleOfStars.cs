@@ -6,7 +6,7 @@ class TriangleOfStars
 	{
 		for (int i = 0; i < 5; i++)
 		{
-			for (int inter = 0; inter < 5 - i; inter += 1)
+			for (int inter = 0; inter < 5 - i - 1; inter += 1)
 			{
 				Console.Write(" ");
 			}
